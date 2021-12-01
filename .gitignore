@@ -1,0 +1,10 @@
+# CMake files
+build/
+
+# IDEs and editors
+# - Visual Studio Code
+.vscode/
+
+# Ignore input
+
+*.input.txt
