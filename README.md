@@ -26,7 +26,7 @@ cat ./day1/sample.txt | ./build/day1-puzzle2
 
 Note that the solution for the second puzzle (`day1-puzzle2`) can be configured to use N-length windows.
 This is done by modifying the `#define WIDTH 3` line in [puzzle2.cpp](./day1/puzzle2.cpp).
-
+Defining it as `1` will yield the same output as the solution for puzzle 1 (`day1-puzzle1`).
 
 ### Day 2: Dive!
 
