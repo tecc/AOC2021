@@ -2,6 +2,7 @@
 
 With that out of the way..
 
+
 # Advent of Code 2021
 
 This is my crack at the Advent of Code 2021.
@@ -11,6 +12,7 @@ Just some general solutions and whatnot.
 For those who want to see the results in action, I will add instructions for the usage of each solution.
 
 ## Command-line usage of each solution
+
 
 ### Day 1: Sonar Sweep
 
@@ -28,6 +30,7 @@ Note that the solution for the second puzzle (`day1-puzzle2`) can be configured 
 This is done by modifying the `#define WIDTH 3` line in [puzzle2.cpp](./day1/puzzle2.cpp).
 Defining it as `1` will yield the same output as the solution for puzzle 1 (`day1-puzzle1`).
 
+
 ### Day 2: Dive!
 
 For this one there is only one executable.
@@ -42,6 +45,19 @@ Example usage:
 cat ./day2/sample.txt | ./build/day2
 # The usage with aim mode is the same, except for an extra `--enable-aim` argument
 cat ./day2/sample.txt | ./build/day2 --enable-aim
+```
+
+
+### Day 3: Binary Diagnostic
+
+Use the `day3-puzzle1` programme for the first puzzle, and `day3-puzzle2` for the second.
+
+The input method is the same as the last two.
+
+Example usage:
+```sh
+cat ./day3/sample.txt | ./build/day3-puzzle1
+cat ./day3/sample.txt | ./build/day3-puzzle2
 ```
 
 
