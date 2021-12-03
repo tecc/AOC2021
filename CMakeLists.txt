@@ -27,3 +27,4 @@ endfunction(add_day)
 
 add_day(1)
 add_day(2 ONE_SOLUTION)
+add_day(3)
